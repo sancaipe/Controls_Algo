@@ -29,12 +29,12 @@ while running:
 
     PhysObjects.Object2D.update(target)
     PhysObjects.Object2D.draw(screen)
-    # Target line draws
+    # Target line draws (poor code lol)#################################
     pygame.draw.line(screen,(0,170,0),target,(target[0],target[1]+20),3)
     pygame.draw.line(screen,(0,170,0),target,(target[0],target[1]-20),3)
     pygame.draw.line(screen,(0,170,0),target,(target[0]+20,target[1]),3)
     pygame.draw.line(screen,(0,170,0),target,(target[0]-20,target[1]),3)
-    ###
+    ####################################################################
 
     pygame.display.flip()
 
